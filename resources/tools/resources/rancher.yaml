@@ -21,17 +21,17 @@ spec:
   project: tools
   source:
     path: apps/rancher
-    repoURL: https://github.com/atoy3731/k8s-tools-app.git
+    repoURL: https://github.com/kumarpmd/k8s-tools-app.git
     targetRevision: master
     helm:
       values: |
-        hostname: "rancher.demo.atoy.dev"
+        hostname: "rancher.foursteam.com"
         rancherImageTag: "v2.4.8"
         ingress:
           tls:
             source: letsEncrypt
         letsEncrypt:
-          email: adam@atoy.dev
+          email: kumarp@foursteam.com
           environment: staging
           ingress:
             class: "traefik"
