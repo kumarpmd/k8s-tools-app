@@ -26,7 +26,7 @@ spec:
     helm:
       values: |
         hostname: "rancher.foursteam.com"
-        rancherImageTag: "v2.4.8"
+        rancherImageTag: "v2.5.5"
         ingress:
           tls:
             source: letsEncrypt
